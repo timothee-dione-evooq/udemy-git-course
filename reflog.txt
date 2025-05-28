@@ -1,1 +1,5 @@
-git reflog displays 30 days changes of the directory
+git reflog displays 30 days changes of the directory (caution, must commit)
+
+use the tag to reset the status:
+git reset --hard  asl320md
+
