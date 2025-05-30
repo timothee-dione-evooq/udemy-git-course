@@ -1,0 +1,5 @@
+get all remote branches without pulling the code:
+
+git fetch origin
+
+then, remote branches are added.
