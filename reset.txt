@@ -1,0 +1,9 @@
+# Soft : conserve les fichiers et l’index de 3 commit derrière
+git reset --soft HEAD~3
+
+# Mixed (défaut) : conserve les fichiers, réinitialise l’index de 1 commit derrière
+git reset HEAD~1
+
+# Hard : réinitialise l’index ET le working directory de deux commits derrière
+git reset --hard HEAD~2
+

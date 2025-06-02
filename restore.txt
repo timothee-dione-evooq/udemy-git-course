@@ -1,0 +1,6 @@
+# Annule les modifications non indexées (non ajoutées avec git add)
+git restore fichier.txt
+
+# Retire un fichier de l'index (unstage) sans toucher au contenu
+git restore --staged fichier.txt
+
